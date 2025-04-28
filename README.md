@@ -3,6 +3,8 @@
 
 **DELTA** is an advanced framework designed for real-time geolocation extraction and event-based analysis from social media data, specifically focusing on natural disasters such as earthquakes, wildfires, and hurricanes. Leveraging the DeepSeek R1 model with 1.5B parameters, DELTA utilizes cutting-edge techniques to provide information extracted from Twitter and YouTube in the form of text, video, and audio.
 
+![Alt text](img/architecture.png)
+
 🔍 Project Overview
 -------------------
 
