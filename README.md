@@ -58,6 +58,8 @@ Contains files for webapplication of YouTube video summarization.
 - `app.py`: Main file
 - Some additional api testing and frontend scripts.
 
+![Alt text](img/webapp1.png)
+
 ---
 
 ### 2. `coredata/`
@@ -95,6 +97,8 @@ These folders contain additional files and scripts used for experiments and back
 - **Comparison and Performance Computation (`evaluation/`):**
   - `compare_YY.ipynb` file: Comparison of model outputs with ground truth for tweets of country code YY.
   - `error_computation.ipynb` file: Computing and plotting performance metrics for each dataset.
+  
+![Alt text](img/e_japan.png)
  
 - **Epicenter and Severity Maps (`maps/`):**
     - `epicentre_JP.html` file: USGS epicenter map
@@ -105,7 +109,11 @@ These folders contain additional files and scripts used for experiments and back
 - **Named Entity Recognition (`ner/`):**
   - `1_5btest_YY` file: Running model locally to identify locations from tweets of country code YY
  
+![Alt text](img/distribution.png)
+ 
 - **Additional Files** for response cleaning, model dissection, fine-tuning, and latency analysis.
+
+  ![Alt text](img/activation.png)
 
 ---
 
