@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_85484f5d7698a26aafc34752c33a4443 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_85484f5d7698a26aafc34752c33a4443" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_85484f5d7698a26aafc34752c33a4443 = L.map(
+                "map_85484f5d7698a26aafc34752c33a4443",
+                {
+                    center: [37.39968, 137.10806666666667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_46ef540791d3d1af05995914e259397e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_46ef540791d3d1af05995914e259397e.addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+            var circle_marker_932d7b89b94e9a566bc43eb7e6f737e9 = L.circleMarker(
+                [37.2225, 136.8266],
+                {"bubblingMouseEvents": true, "color": "#ff7900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7900", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_c15805d135f0b3a7f9ffbe1fb1d92c13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43d7baaf796ebcff94ceb8e3b975de1a = $(`<div id="html_43d7baaf796ebcff94ceb8e3b975de1a" style="width: 100.0%; height: 100.0%;">6 km W of Anamizu, Japan - Frequency: 5.1 mww #ff7900</div>`)[0];
+                popup_c15805d135f0b3a7f9ffbe1fb1d92c13.setContent(html_43d7baaf796ebcff94ceb8e3b975de1a);
+            
+        
+
+        circle_marker_932d7b89b94e9a566bc43eb7e6f737e9.bindPopup(popup_c15805d135f0b3a7f9ffbe1fb1d92c13)
+        ;
+
+        
+    
+    
+            var circle_marker_adae31ddf8e8d5427475b49d02f40f55 = L.circleMarker(
+                [37.3466, 136.9204],
+                {"bubblingMouseEvents": true, "color": "#ff5500", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff5500", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_f259b4a38ac880bb97cee06f5bf872ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e454b673632b162ae538b70e868ab54 = $(`<div id="html_2e454b673632b162ae538b70e868ab54" style="width: 100.0%; height: 100.0%;">12 km N of Anamizu, Japan - Frequency: 5.3 mww #ff5500</div>`)[0];
+                popup_f259b4a38ac880bb97cee06f5bf872ba.setContent(html_2e454b673632b162ae538b70e868ab54);
+            
+        
+
+        circle_marker_adae31ddf8e8d5427475b49d02f40f55.bindPopup(popup_f259b4a38ac880bb97cee06f5bf872ba)
+        ;
+
+        
+    
+    
+            var circle_marker_bb2d8522f536b02951ffd8a435f7ab4f = L.circleMarker(
+                [37.247, 136.7689],
+                {"bubblingMouseEvents": true, "color": "#ff4000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff4000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_8fce5d30ff2bd625d009a03ebf13c482 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1486ecdaa287d208b7feafa04f927fc0 = $(`<div id="html_1486ecdaa287d208b7feafa04f927fc0" style="width: 100.0%; height: 100.0%;">11 km W of Anamizu, Japan - Frequency: 5.4 mww #ff4000</div>`)[0];
+                popup_8fce5d30ff2bd625d009a03ebf13c482.setContent(html_1486ecdaa287d208b7feafa04f927fc0);
+            
+        
+
+        circle_marker_bb2d8522f536b02951ffd8a435f7ab4f.bindPopup(popup_8fce5d30ff2bd625d009a03ebf13c482)
+        ;
+
+        
+    
+    
+            var circle_marker_46d37569d810960b3eeb6188740940ad = L.circleMarker(
+                [37.8107, 137.5664],
+                {"bubblingMouseEvents": true, "color": "#ff7900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7900", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_4c72547176a1ddd5ab2dd36ed1b03e3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48d4b05303e1e75205837dab4e815433 = $(`<div id="html_48d4b05303e1e75205837dab4e815433" style="width: 100.0%; height: 100.0%;">73 km WSW of Sado, Japan - Frequency: 5.1 mb #ff7900</div>`)[0];
+                popup_4c72547176a1ddd5ab2dd36ed1b03e3f.setContent(html_48d4b05303e1e75205837dab4e815433);
+            
+        
+
+        circle_marker_46d37569d810960b3eeb6188740940ad.bindPopup(popup_4c72547176a1ddd5ab2dd36ed1b03e3f)
+        ;
+
+        
+    
+    
+            var circle_marker_3fd1beea8da2304946a0d9853472c2f9 = L.circleMarker(
+                [37.1479, 136.6562],
+                {"bubblingMouseEvents": true, "color": "#ff8900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8900", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_2adb5f7d7471116a63472c670fcfcb9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_914f97d0b2d758739866eb96fea90078 = $(`<div id="html_914f97d0b2d758739866eb96fea90078" style="width: 100.0%; height: 100.0%;">23 km WSW of Anamizu, Japan - Frequency: 5.0 mb #ff8900</div>`)[0];
+                popup_2adb5f7d7471116a63472c670fcfcb9e.setContent(html_914f97d0b2d758739866eb96fea90078);
+            
+        
+
+        circle_marker_3fd1beea8da2304946a0d9853472c2f9.bindPopup(popup_2adb5f7d7471116a63472c670fcfcb9e)
+        ;
+
+        
+    
+    
+            var circle_marker_31ee6cb0d0e5f3322f1450fb066606fb = L.circleMarker(
+                [37.4998, 137.3585],
+                {"bubblingMouseEvents": true, "color": "#ff6800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6800", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_70098ab86b633a2e78d0d4a2c38ae55d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4d205053cf7eff222e27474c7971e34 = $(`<div id="html_d4d205053cf7eff222e27474c7971e34" style="width: 100.0%; height: 100.0%;">50 km NE of Anamizu, Japan - Frequency: 5.2 mb #ff6800</div>`)[0];
+                popup_70098ab86b633a2e78d0d4a2c38ae55d.setContent(html_d4d205053cf7eff222e27474c7971e34);
+            
+        
+
+        circle_marker_31ee6cb0d0e5f3322f1450fb066606fb.bindPopup(popup_70098ab86b633a2e78d0d4a2c38ae55d)
+        ;
+
+        
+    
+    
+            var circle_marker_c68246953a5f37846a632c3774552f0f = L.circleMarker(
+                [37.5146, 137.4029],
+                {"bubblingMouseEvents": true, "color": "#ff1e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1e00", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_df5c284cef3de3fdd79efa67d30b73a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d616567065e91ba8127e99d2495c661 = $(`<div id="html_0d616567065e91ba8127e99d2495c661" style="width: 100.0%; height: 100.0%;">54 km NE of Anamizu, Japan - Frequency: 5.6 mb #ff1e00</div>`)[0];
+                popup_df5c284cef3de3fdd79efa67d30b73a2.setContent(html_0d616567065e91ba8127e99d2495c661);
+            
+        
+
+        circle_marker_c68246953a5f37846a632c3774552f0f.bindPopup(popup_df5c284cef3de3fdd79efa67d30b73a2)
+        ;
+
+        
+    
+    
+            var circle_marker_fda3b5ec639e8e0b5d87e9143fa1f974 = L.circleMarker(
+                [37.5339, 137.4185],
+                {"bubblingMouseEvents": true, "color": "#ff2900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff2900", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_b85c00a55192d92b3a705f9c46496328 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33bd2d82949980b44f8daf88fe52f9ca = $(`<div id="html_33bd2d82949980b44f8daf88fe52f9ca" style="width: 100.0%; height: 100.0%;">56 km NE of Anamizu, Japan - Frequency: 5.5 mb #ff2900</div>`)[0];
+                popup_b85c00a55192d92b3a705f9c46496328.setContent(html_33bd2d82949980b44f8daf88fe52f9ca);
+            
+        
+
+        circle_marker_fda3b5ec639e8e0b5d87e9143fa1f974.bindPopup(popup_b85c00a55192d92b3a705f9c46496328)
+        ;
+
+        
+    
+    
+            var circle_marker_01487d944e359cd88d83b7889308d395 = L.circleMarker(
+                [37.1718, 136.6149],
+                {"bubblingMouseEvents": true, "color": "#ff7900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7900", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_a387d4dc2e3f1b7520234b68a6fd0740 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1be6dd54e8a1bfe13e52615454e7cc71 = $(`<div id="html_1be6dd54e8a1bfe13e52615454e7cc71" style="width: 100.0%; height: 100.0%;">26 km WSW of Anamizu, Japan - Frequency: 5.1 mb #ff7900</div>`)[0];
+                popup_a387d4dc2e3f1b7520234b68a6fd0740.setContent(html_1be6dd54e8a1bfe13e52615454e7cc71);
+            
+        
+
+        circle_marker_01487d944e359cd88d83b7889308d395.bindPopup(popup_a387d4dc2e3f1b7520234b68a6fd0740)
+        ;
+
+        
+    
+    
+            var circle_marker_fa8e51502ec1cbd9993210925087d88a = L.circleMarker(
+                [37.5444, 137.401],
+                {"bubblingMouseEvents": true, "color": "#ff8900", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8900", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_94d22a9e774cf9b4f46f2f5ba9e3240b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb387f9d1e77f800a7721efce36424fd = $(`<div id="html_cb387f9d1e77f800a7721efce36424fd" style="width: 100.0%; height: 100.0%;">56 km NE of Anamizu, Japan - Frequency: 5.0 mb #ff8900</div>`)[0];
+                popup_94d22a9e774cf9b4f46f2f5ba9e3240b.setContent(html_cb387f9d1e77f800a7721efce36424fd);
+            
+        
+
+        circle_marker_fa8e51502ec1cbd9993210925087d88a.bindPopup(popup_94d22a9e774cf9b4f46f2f5ba9e3240b)
+        ;
+
+        
+    
+    
+            var circle_marker_91389ae9c0d2d11e8311e50a0015fe05 = L.circleMarker(
+                [37.2997, 136.8875],
+                {"bubblingMouseEvents": true, "color": "#ff1e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1e00", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_d018f7f0f02c14b5a0399583ba83a02c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e665a4241dab3ca6c7680fa1af5f5294 = $(`<div id="html_e665a4241dab3ca6c7680fa1af5f5294" style="width: 100.0%; height: 100.0%;">7 km N of Anamizu, Japan - Frequency: 5.6 mww #ff1e00</div>`)[0];
+                popup_d018f7f0f02c14b5a0399583ba83a02c.setContent(html_e665a4241dab3ca6c7680fa1af5f5294);
+            
+        
+
+        circle_marker_91389ae9c0d2d11e8311e50a0015fe05.bindPopup(popup_d018f7f0f02c14b5a0399583ba83a02c)
+        ;
+
+        
+    
+    
+            var circle_marker_fa7f00a3b6df0872099472e3bc0a0689 = L.circleMarker(
+                [37.4861, 137.4519],
+                {"bubblingMouseEvents": true, "color": "#ff6800", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff6800", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_e656cf205aa9537c02dce0ceae4d8ce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cbed21f04f03533359f0f3e20308648 = $(`<div id="html_2cbed21f04f03533359f0f3e20308648" style="width: 100.0%; height: 100.0%;">56 km ENE of Anamizu, Japan - Frequency: 5.2 mb #ff6800</div>`)[0];
+                popup_e656cf205aa9537c02dce0ceae4d8ce1.setContent(html_2cbed21f04f03533359f0f3e20308648);
+            
+        
+
+        circle_marker_fa7f00a3b6df0872099472e3bc0a0689.bindPopup(popup_e656cf205aa9537c02dce0ceae4d8ce1)
+        ;
+
+        
+    
+    
+            var circle_marker_6ad6f868dc7a7cce4aa24d8ccca2e41d = L.circleMarker(
+                [37.1895, 136.8272],
+                {"bubblingMouseEvents": true, "color": "#ff1e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1e00", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.129689794849455, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_eb53b7744fa16da8895750e611b46f3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5218ccc33acd877f791828ba2e03d8e0 = $(`<div id="html_5218ccc33acd877f791828ba2e03d8e0" style="width: 100.0%; height: 100.0%;">8 km SW of Anamizu, Japan - Frequency: 6.2 mb #ff1e00</div>`)[0];
+                popup_eb53b7744fa16da8895750e611b46f3a.setContent(html_5218ccc33acd877f791828ba2e03d8e0);
+            
+        
+
+        circle_marker_6ad6f868dc7a7cce4aa24d8ccca2e41d.bindPopup(popup_eb53b7744fa16da8895750e611b46f3a)
+        ;
+
+        
+    
+    
+            var circle_marker_a120390565e19e094f68d6ddddaf9fa9 = L.circleMarker(
+                [37.4874, 137.271],
+                {"bubblingMouseEvents": true, "color": "#ff1e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1e00", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.171439674636755, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_497973c436432f708ed302d14046732c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe7251a1c79e81c5ca63c63e50c3decc = $(`<div id="html_fe7251a1c79e81c5ca63c63e50c3decc" style="width: 100.0%; height: 100.0%;">2024 Noto Peninsula, Japan Earthquake - Frequency: 7.5 mww #ff1e00</div>`)[0];
+                popup_497973c436432f708ed302d14046732c.setContent(html_fe7251a1c79e81c5ca63c63e50c3decc);
+            
+        
+
+        circle_marker_a120390565e19e094f68d6ddddaf9fa9.bindPopup(popup_497973c436432f708ed302d14046732c)
+        ;
+
+        
+    
+    
+            var circle_marker_0857e48f6550f3ce77f47185b0a0da61 = L.circleMarker(
+                [37.4933, 137.2491],
+                {"bubblingMouseEvents": true, "color": "#ff1e00", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1e00", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.17721737916405, "stroke": true, "weight": 3}
+            ).addTo(map_85484f5d7698a26aafc34752c33a4443);
+        
+    
+        var popup_4917ba4d66e1966f366644e8c6d9cbd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f0f7fcf000587fbb22bad9421c3c14b = $(`<div id="html_0f0f7fcf000587fbb22bad9421c3c14b" style="width: 100.0%; height: 100.0%;">42 km NE of Anamizu, Japan - Frequency: 5.8 mb #ff1e00</div>`)[0];
+                popup_4917ba4d66e1966f366644e8c6d9cbd4.setContent(html_0f0f7fcf000587fbb22bad9421c3c14b);
+            
+        
+
+        circle_marker_0857e48f6550f3ce77f47185b0a0da61.bindPopup(popup_4917ba4d66e1966f366644e8c6d9cbd4)
+        ;
+
+        
+    
+</script>
+</html>
